@@ -94,9 +94,12 @@ During gameplay, the UI displays:
 ---
 
 ## 🎁 Droppable Items
-
+- **Movement speed boost-> duration: 10s
+- **Attack boost-> duration: 20s
 - **Health Potion**: +50 HP  
-- **Magnet**: Temporarily increases XP pickup range and XP movement speed (10 seconds)
+- **Magnet**:
+- Increases pickup range and movement speed for:
+- (XP drops, attack boost and movement speed): duration: 10 s
 
 ---
 
