@@ -9,7 +9,7 @@ This is a top-down survival game featuring melee and ranged combat, leveling up,
 
 ### 🔹 Movement
 - **W, A, S, D** or **Arrow Keys** to move the player
-- **Left Mouse Button** to move the camera (resets on release)
+- ** Hold the **Left Mouse Button** to move the camera (resets on release)
 
 ### 🔹 Combat
 - **Melee Weapon**: Orbiting rocks around the player
