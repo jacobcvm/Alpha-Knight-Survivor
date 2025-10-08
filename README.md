@@ -9,11 +9,16 @@ This is a top-down survival game featuring melee and ranged combat, leveling up,
 
 ### 🔹 Movement
 - **W, A, S, D** or **Arrow Keys** to move the player
+- mouse movement (left,right) makes the character flip_horizontally
 - ** Hold the **Left Mouse Button** to move the camera (resets on release)
 
 ### 🔹 Combat
-- **Melee Weapon**: Orbiting rocks around the player
+- **Melee Weapon**: 
+   - Orbiting rocks around the player
+   - Sword
 - **Ranged Weapon**: Rock projectile follows the mouse position
+   - The player becomes black when hit
+   - Coming soon
 
 ### 🔹 Enemies
 1. **Thief**
@@ -27,10 +32,12 @@ This is a top-down survival game featuring melee and ranged combat, leveling up,
 
 #### Enemy Behavior
 - All enemies:
-  - Play a hit animation and stop moving when hit
+  - Become black when hit
+  - Sword attacks pushes them away from the player 
+  - Move back and forth and attack when they have a collision with the player
   - Spawn outside the screen and move toward the player
   - Spawn more frequently as time passes
-  - Stronger enemies spawn less often
+  - Stronger enemies spawn less often than the weaker ones
   - Drop XP on death
 
 ### 🔹 Magnet Mechanic
@@ -79,9 +86,10 @@ During gameplay, the UI displays:
 - Faster rotation  
 - Bigger rocks  
 - Larger orbit radius  
-- Additional rock  
+- Additional rock
+- More damage  
 
-**Projectile (Ranged)**
+**Rock Projectile and Sword Attack**
 - Faster attack speed  
 - More damage  
 
@@ -115,8 +123,7 @@ During gameplay, the UI displays:
 - [ ] Stop walk animation when idle  
 
 ### ⚔️ Weapons
-- [ ] Add second ranged weapon  
-- [ ] Add second melee weapon  
+- [ ] Add second ranged weapon   
 
 ### 📋 UI & Menus
 - [ ] Add options in the main menu  
