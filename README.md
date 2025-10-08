@@ -8,6 +8,7 @@ This is a top-down survival game featuring melee and ranged combat, leveling up,
 ## 🎮 Current Features
 
 ### 🔹 Movement
+- Screen Settings: Borderless windowed mode 1920-1080 resolution
 - **W, A, S, D** or **Arrow Keys** to move the player
 - mouse movement (left,right) makes the character flip_horizontally
 - ** Hold the **Left Mouse Button** to move the camera (resets on release)
@@ -61,6 +62,10 @@ During gameplay, the UI displays:
 - Start Game
 - View Highscore
 - Quit Game
+
+### Highscore
+- Delete Highscore
+- Return to main menu
 
 ### Pause Menu (via `ESC`)
 - Resume Game
