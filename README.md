@@ -119,7 +119,6 @@ During gameplay, the UI displays:
 ## 🚧 Features To-Do
 
 ### ⚙️ Gameplay
-- [ ] Add upgrade limits  
 - [ ] Limit maximum number of enemies and drops  
 - [ ] Add rarity system for upgrades  
 - [ ] Implement a proper XP and HP bar  
