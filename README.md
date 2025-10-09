@@ -1,7 +1,7 @@
 # 🛡️ Knight Survivor - Pre-Alpha
 
 Welcome to the **Knight Survivor** pre-alpha!  
-This is a top-down survival game featuring melee and ranged combat, leveling up, and increasing waves of enemies.
+This is a top-down survival game featuring melee and ranged combat, leveling up and fighting increasing waves of enemies.
 
 ---
 
@@ -49,10 +49,11 @@ This is a top-down survival game featuring melee and ranged combat, leveling up,
 ## 🧪 User Interface (UI)
 
 During gameplay, the UI displays:
-- **HP / Max HP**
-- **XP / Max XP**
+- **Hp bar: HP / Max HP**
+- **Xp bar: Level: XP / Max XP**
 - **Kills**
 - **Elapsed Time**
+- **Score**
 
 ---
 
@@ -109,7 +110,7 @@ During gameplay, the UI displays:
 ## 🎁 Droppable Items
 - **Movement speed boost-> duration: 10s
 - **Attack boost-> duration: 20s
-- **Health Potion**: +50 HP  
+- **Health Potion**: restore 50% of health 
 - **Magnet**:
 - Increases pickup range and movement speed for:
 - (XP drops, attack boost and movement speed): duration: 10 s
@@ -119,19 +120,20 @@ During gameplay, the UI displays:
 ## 🚧 Features To-Do
 
 ### ⚙️ Gameplay
-- [ ] Limit maximum number of enemies and drops  
-- [ ] Add rarity system for upgrades  
-- [ ] Implement a proper XP and HP bar  
 - [ ] Add level design with obstacles  
-- [ ] Add invisible walls to limit map size  
-- [ ] Stop walk animation when idle  
+- [ ] Add invisible walls to limit map size
+- [ ] Limit maximum number of enemies and drops 
+- [ ] Show active boosts in the UI 
+- [ ] Add rarity system for upgrades
+- [ ] screen effect when player gets hit
+- [ ] ennemy stat scaling (increases over time)
 
 ### ⚔️ Weapons
 - [ ] Add second ranged weapon   
 
 ### 📋 UI & Menus
 - [ ] Add options in the main menu  
-- [ ] Add credits button  
+- [ ] Add credits in the main menu 
 
 ### 🧩 Assets
 - [ ] Find and integrate more free assets  
