@@ -17,9 +17,9 @@ This is a top-down survival game featuring melee and ranged combat, leveling up 
 - **Melee Weapon**: 
    - Orbiting rocks around the player
    - Sword
-- **Ranged Weapon**: Rock projectile follows the mouse position
-   - The player becomes black when hit
-   - Coming soon
+- **Ranged Weapon**: 
+   - Rock projectile follows the mouse position
+   - Periodical Explosion that follows the mouse
 
 ### 🔹 Enemies
 1. **Thief**
@@ -39,6 +39,7 @@ This is a top-down survival game featuring melee and ranged combat, leveling up 
   - Spawn outside the screen and move toward the player
   - Spawn more frequently as time passes
   - Stronger enemies spawn less often than the weaker ones
+  - The player becomes black when hit by any of their attacks
   - Drop XP on death
 
 ### 🔹 Magnet Mechanic
@@ -87,15 +88,11 @@ During gameplay, the UI displays:
 #### 🔧 Upgrades
 
 ##### Weapon Upgrades
-
-**Rotating Rocks (Melee)**
 - Faster rotation  
-- Bigger rocks  
+- Bigger Attacks  
 - Larger orbit radius  
 - Additional rock
 - More damage  
-
-**Rock Projectile and Sword Attack**
 - Faster attack speed  
 - More damage  
 
@@ -125,11 +122,12 @@ During gameplay, the UI displays:
 - [ ] Limit maximum number of enemies and drops 
 - [ ] Show active boosts in the UI 
 - [ ] Add rarity system for upgrades
+- [ ] Show the numbers about each upgrade for example: dmg+10
 - [ ] screen effect when player gets hit
 - [ ] ennemy stat scaling (increases over time)
 
 ### ⚔️ Weapons
-- [ ] Add second ranged weapon   
+- [ ] Add more weapons?
 
 ### 📋 UI & Menus
 - [ ] Add options in the main menu  
