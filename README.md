@@ -63,7 +63,13 @@ During gameplay, the UI displays:
 ### Main Menu
 - Start Game
 - View Highscore
+- Upgrades
 - Quit Game
+
+### Upgrades
+- 3 possible permanent upgrades (Hp,dmg,move_speed)
+- reset upgrades
+- Return to main menu
 
 ### Highscore
 - Delete Highscore
@@ -82,7 +88,7 @@ During gameplay, the UI displays:
 - Choose **1 of 3 random upgrades**
 
 #### 📈 Passive Bonus (each level up)
-- `+20` Max HP  
+- `+10` Max HP  
 - `+5` Damage
 
 #### 🔧 Upgrades
@@ -105,10 +111,12 @@ During gameplay, the UI displays:
 ---
 
 ## 🎁 Droppable Items
-- **Movement speed boost-> duration: 10s
-- **Attack boost-> duration: 20s
-- **Health Potion**: restore 50% of health 
-- **Magnet**:
+- **Xp -Blue gem-
+- **Gold to buy permanent upgrades -coin-
+- **Movement speed boost-> duration: 10s -Green gem-
+- **Attack boost-> duration: 20s -Red Gem-
+- **Health Potion**: restore 50% of health -Heart-
+- **Magnet**: -Key-
 - Increases pickup range and movement speed for:
 - (XP drops, attack boost and movement speed): duration: 10 s
 
